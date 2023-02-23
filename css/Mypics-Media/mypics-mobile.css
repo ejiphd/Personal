@@ -1,0 +1,64 @@
+body{
+    margin: auto;
+    padding: auto;
+    background-image: url(../../images/background.jpg);
+    background-size: cover;
+}
+/* navigation */
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(54, 54, 54);
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    
+}   
+nav > a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+.navigation{
+    padding-left: 20px;
+}
+nav > a:active{
+    color:aqua;
+}
+/* Grid */
+.container{
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr;
+    padding: 0 10px;
+    margin-top: 20px;
+}
+.grid{
+    border:2px solid aqua;
+    border-radius: 10px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+}
+.grid:nth-child(1){
+    text-align: center;
+    background-color: rgb(54, 54, 54);
+}
+.grid > img{
+    width: 100%;
+    border-radius: 10px;
+}
+.grid:nth-child(8){
+    text-align: center;
+    background-color: rgb(54, 54, 54);
+    padding-bottom: 10px;
+}
+.grid:nth-child(8) > a{
+    color: white;
+    text-decoration: none;
+    padding-left: 10px;
+}
+.grid:nth-child(8) > a:active{
+    color: aqua;
+}
